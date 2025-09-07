@@ -1,0 +1,35 @@
+{
+  "name": "nuxt-app",
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergiomediname/nuxt-boilerplate.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sergiomediname/nuxt-boilerplate/issues"
+  },
+  "homepage": "https://github.com/sergiomediname/nuxt-boilerplate#readme",
+  "description": "🧩 Nuxt starter template including OAuth authentication and database connection.",
+  "dependencies": {
+    "@nuxt/eslint": "^1.9.0",
+    "@nuxtjs/supabase": "^1.6.1",
+    "@prisma/client": "^6.15.0",
+    "eslint": "^9.35.0",
+    "nuxt": "^4.1.1",
+    "vue": "^3.5.20",
+    "vue-router": "^4.5.1"
+  },
+  "devDependencies": {
+    "prisma": "^6.15.0",
+    "standard": "^17.1.2"
+  }
+}
